@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Elemento raiz do documento HTML, define o idioma da página -->
+<head>
+    <meta charset="UTF-8"> <!-- Configuração do conjunto de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração da viewport para dispositivos móveis -->
+    <title>Jornal Online</title> <!-- Título da página exibido na aba do navegador -->
+    <style> <!-- Definição de estilos CSS inline -->
+        body { <!-- Estilos para o corpo da página -->
+            font-family: Arial, sans-serif; <!-- Definição da fonte -->
+            margin: 0; <!-- Remoção das margens padrão -->
+            padding: 0; <!-- Remoção do preenchimento padrão -->
+        }
+        header { <!-- Estilos para o cabeçalho da página -->
+            background-color: #333; <!-- Cor de fundo -->
+            color: #fff; <!-- Cor do texto -->
+            padding: 10px; <!-- Preenchimento -->
+            text-align: center; <!-- Alinhamento do texto -->
+        }
+        nav { <!-- Estilos para a barra de navegação -->
+            background-color: #444; <!-- Cor de fundo -->
+            color: #fff; <!-- Cor do texto -->
+            padding: 10px; <!-- Preenchimento -->
+            text-align: center; <!-- Alinhamento do texto -->
+        }
+        nav a { <!-- Estilos para os links na barra de navegação -->
+            color: #fff; <!-- Cor do texto -->
+            text-decoration: none; <!-- Remoção do sublinhado padrão -->
+            margin: 0 10px; <!-- Margem -->
+        }
+        nav a:hover { <!-- Estilos para links na barra de navegação ao passar o mouse -->
+            text-decoration: underline; <!-- Adição do sublinhado -->
+        }
+        section { <!-- Estilos para a seção de conteúdo -->
+            padding: 20px; <!-- Preenchimento -->
+        }
+        footer { <!-- Estilos para o rodapé -->
+            background-color: #333; <!-- Cor de fundo -->
+            color: #fff; <!-- Cor do texto -->
+            text-align: center; <!-- Alinhamento do texto -->
+            padding: 10px; <!-- Preenchimento -->
+            position: fixed; <!-- Posição fixa na parte inferior -->
+            bottom: 0; <!-- Fixação na parte inferior -->
+            width: 100%; <!-- Largura total -->
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jornal Online</h1> <!-- Título do cabeçalho -->
+    </header>
+    <nav>
+        <a href="#">Principal</a> <!-- Link para a página principal -->
+        <a href="#">Notícias</a> <!-- Link para a página de notícias -->
+        <a href="#">Esportes</a> <!-- Link para a página de esportes -->
+        <a href="#">Entretenimento</a> <!-- Link para a página de entretenimento -->
+        <a href="#">Opinião</a> <!-- Link para a página de opinião -->
+        <a href="#">Contato</a> <!-- Link para a página de contato -->
+    </nav>
+    <section>
+        <h2>Últimas Notícias</h2> <!-- Título da seção de notícias -->
+        <article> <!-- Artigo de notícia -->
+            <h3>Título da Notícia</h3> <!-- Título da notícia -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet odio ac purus porta elementum. Nam rutrum sit amet tortor id varius.</p> <!-- Texto do conteúdo -->
+            <p><a href="#">Leia mais...</a></p> <!-- Link para ler mais -->
+        </article>
+        <article> <!-- Segundo artigo de notícia -->
+            <h3>Outro Título da Notícia</h3> <!-- Título da segunda notícia -->
+            <p>Aliquam erat volutpat. Nulla facilisi. Integer commodo, turpis eget tempor fermentum, enim nisl fringilla odio, nec mattis justo elit et sem.</p> <!-- Texto do conteúdo -->
+            <p><a href="#">Leia mais...</a></p> <!-- Link para ler mais -->
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jornal Online. Todos os direitos reservados.</p> <!-- Texto do rodapé -->
+    </footer>
+</body>
+</html>
