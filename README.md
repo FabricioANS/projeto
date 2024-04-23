@@ -1,1 +1,1 @@
-Atualindo e praticando no git
+Atualizando e praticando no gitpara github
